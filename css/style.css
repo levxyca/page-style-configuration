@@ -1,0 +1,205 @@
+body {
+    font-family: monospace;
+    background-color: cadetblue;
+    color:#FFF6FF;
+}
+
+.main {
+    display: flex;
+}
+
+.style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20rem;
+    margin-left: 5rem;
+}
+
+.main__text {
+    font-size: 1.2rem;
+    margin: 10px 0;
+}
+
+.main__menu-item {
+    display: flex;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.main__menu-btn {
+    width: 120px;
+    cursor: pointer;
+    color: #5F9EA0;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: #fff6ff;
+    border: none;
+    margin: 5px 0;
+    padding: 10px;
+    box-shadow: 3px 3px rgb(255 246 255 / 50%);
+}
+
+.main__menu-btn:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+.card__background {
+    width: 6rem;
+    height: 10rem;
+    background-color: #FFF6FF;
+    margin-left: 1rem;
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.card__background-item {
+    width: 40px;
+    height: 40px;
+    margin: 2.5px 2.5px;
+    cursor: pointer;
+}
+
+#A {
+    background: #E80060;
+}
+
+#B {
+    background: #4a3704;
+}
+
+#C {
+    background: #E1FC1E;
+}
+
+#D {
+    background: #67565F;
+}
+
+#E {
+    background: #931E0E;
+}
+
+#F {
+    background: #2D88E0;
+}
+
+.card__fonts {
+    width: 9rem;
+    background-color: #FFF6FF;
+    margin: 0.5rem 1rem;
+}
+
+.card__fonts-btn {
+    border: 1px solid #5F9EA0;
+    color: #5F9EA0;
+    width: 150px;
+    height: 50px;
+    line-height: 1.5;
+    letter-spacing: .1em;
+    cursor: pointer;
+}
+
+.card__fonts-tamanho {
+    margin: 0.5rem 1rem;
+}
+
+#input {
+    background: #5F9EA0;
+    border: 1px solid #fff6ff;
+    padding: 10px 0px;
+    width: 100px;
+}
+
+#submit {
+    background: #fff6ff;
+    border: none;
+    padding: 10px 15px;
+    margin: 5px 0;
+    color: #5F9EA0;
+    text-transform: uppercase;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.card__fonts-cor {
+    width: 6rem;
+    margin: 2.5% 0;
+    background-color: #FFF6FF;
+    margin-left: 1rem;
+    display: flex; 
+    flex-wrap: wrap; 
+    align-items: center; 
+    justify-content: center;
+}
+
+.card__fonts-peso {
+    width: 7rem;
+    margin: 2.5% 0;
+    background-color: #FFF6FF;
+    margin-left: 1rem;
+}
+
+.card__fonts-item-peso {
+    padding: 10% 0;
+    text-align: center;
+    border: 1px solid #5F9EA0;
+    color: #5F9EA0;
+    cursor: pointer;
+}
+
+.card__fonts-item {
+    width: 40px;
+    height: 40px;
+    margin: 2.5px 2.5px;
+    cursor: pointer;
+}
+
+#cor1 {
+    background: #361322;
+}
+
+#cor2 {
+    background: #0b9d15;
+}
+
+#cor3 {
+    background: #2d0535;
+}
+
+#cor4 {
+    background: #bf4b4b;
+}
+
+#cor5 {
+    background: #95bac3;
+}
+
+#cor6 {
+    background: #000000;
+}
+
+.main__principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 40%);
+    height: calc(100vh - 40px);
+    font-size: 2.5rem;
+    letter-spacing: .1em;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.footer {
+    text-align: center;
+    font-size: 1.03rem;
+    margin: 10px 0;
+}
+
+.none {
+    display: none;
+}
